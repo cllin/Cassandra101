@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!-- saved from url=(0050)http://getbootstrap.com/examples/jumbotron-narrow/ -->
+<html lang="en">
+    
+    <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+            
+        <title>Cassandra 101</title>
+
+        <!-- Bootstrap core CSS -->
+        <link href="./index_files/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Custom styles for this template -->
+        <link href="./index_files/jumbotron-narrow.css" rel="stylesheet">
+
+        <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+        <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+        <script src="./index_files/ie-emulation-modes-warning.js"></script>
+        
+        <!-- Controller of the application -->
+        <script src="./index_files/index.js"></script>
+        
+        <!-- JQuery -->
+        <script src="./index_files/jquery-1.11.1.min.js"></script>
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+
+  <body>
+
+    <div class="container">
+      <div class="header">
+        <ul class="nav nav-pills pull-right">
+          <li class="active"><a href="index.html">Home</a></li>
+        </ul>
+        <h3 class="text-muted">Cassandra 101</h3>
+      </div>
+
+      <div class="jumbotron">
+        <p class="lead">Values cannot be null</p>
+        <input id="user_name" class="form-control" placeholder="User Name" required="" autofocus="">
+        <p></p>
+        <input id="phone_number" class="form-control" placeholder="Phone Number" required="" autofocus="">
+        <p></p>
+        <input id="address" class="form-control" placeholder="Address" required="" autofocus="">
+        <p></p>
+        <p><a class="btn btn-block btn-success" onclick="insert()" role="button">Insert</a></p>
+        <p></p>
+        <p><a class="btn btn-block btn-success" onclick="printTable()" role="button">Print Table</a></p>
+        <p id="table">Table will be printed here.</p>
+        <p></p>
+        <p><a class="btn btn-block btn-danger" onclick="clearTable()" role="button">Clear Table</a></p>
+      </div>
+
+      <div class="footer">
+        <p>Ching-Lun Lin 2014, clallenlin@gmail.com | Powered by <a href="http://getbootstrap.com/">Bootstrap</a></p>
+      </div>
+
+    </div> <!-- /container -->
+
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="./index_files/ie10-viewport-bug-workaround.js"></script>
+  
+
+</body></html>
