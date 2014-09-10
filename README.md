@@ -21,5 +21,8 @@ $ cd server
 $ node server.js // Start server on local machine
 ```
 
+##Screenshots
+![](https://github.com/cllin/Cassandra101/blob/master/demo.png)
+
 ##Acknowledgements
 This project uses [node-cassandra-cql](https://github.com/jorgebay/node-cassandra-cql) as driver for Apache Cassandra.
